@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Igor Radulović - AI Developer & Master Student CV">
+    <title>Igor Radulović - CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js" defer></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"></script>
+    
+</head>
+<body>
+    <div class="cursor"></div>
+    
+    <div class="loading-screen">
+        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_kcsr6fcp.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        <h2>Loading Igor's World...</h2>
+    </div>
+
+    <div class="content-wrapper">
+        <header>
+            <div class="header-content">
+                <div class="name-container">
+                    <h1 class="glitch" data-text="Igor Radulović">Igor Radulović</h1>
+                    <div class="subtitle">
+                        <span class="typing"></span><span class="cursor">|</span>
+                    </div>
+                </div>
+                <div class="particle-container" id="particles-js"></div>
+            </div>
+        </header>
+
+        <nav class="main-nav">
+            <div class="nav-container">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <section id="about" class="section-card">
+                <div class="section-content">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-content">
+                        <div class="profile-image">
+                            <div class="image-container">
+                                <img src="images/profilna.jpg" alt="Igor Radulović" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
+                              </div>
+                              
+                        </div>
+                        <div class="about-text">
+                            <p>Montenegrin AI Developer and Master Student with a passion for technology and innovation.</p>
+                            <div class="contact-info">
+                                <div><i class="fas fa-envelope"></i> <a href="mailto:igor.radulovic@udg.edu.me">igor.radulovic@udg.edu.me</a></div>
+                                <div><i class="fas fa-envelope"></i> <a href="mailto:igiradulovic@gmail.com">igiradulovic@gmail.com</a></div>
+                                <div><i class="fas fa-phone"></i> (+382) 67783323</div>
+                                <div><i class="fas fa-map-marker-alt"></i> Fruskogorska 51, 81000 Podgorica, Montenegro</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-bg"></div>
+            </section>
+
+            <section id="experience" class="section-card">
+                <div class="section-content">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-item" data-year="2025">
+                            <h3>AI/Blockchain Developer</h3>
+                            <p>DigitalSmart, Podgorica, Montenegro</p>
+                            <span class="date">Jan 2025 - Current</span>
+                        </div>
+                        <div class="timeline-item" data-year="2024">
+                            <h3>House Manager</h3>
+                            <p>Faraway Hotel, Nantucket, Massachusetts, USA</p>
+                            <span class="date">Jun 2024 - Sep 2024</span>
+                        </div>
+                        <div class="timeline-item" data-year="2023">
+                            <h3>Food Runner</h3>
+                            <p>Lulu's, Gulf Shores, USA</p>
+                            <span class="date">Jul 2023 - Sep 2023</span>
+                        </div>
+                        <div class="timeline-item" data-year="2023">
+                            <h3>Busser</h3>
+                            <p>Sunliner Diner, Gulf Shores, USA</p>
+                            <span class="date">Jun 2023 - Sep 2023</span>
+                        </div>
+                        <div class="timeline-item" data-year="2022">
+                            <h3>IT Specialist</h3>
+                            <p>Lob Company, Podgorica, Montenegro</p>
+                            <span class="date">Jun 2022 - Dec 2022</span>
+                            <p class="description">IT specialist in one of the largest betting companies in Montenegro. Responsible for repairing and maintaining systems, computers and electronics in bet shops.</p>
+                        </div>
+                        <div class="timeline-item" data-year="2019">
+                            <h3>Aircraft systems maintenance technician</h3>
+                            <p>Montenegro Air Force, Podgorica, Montenegro</p>
+                            <span class="date">Oct 2019 - Apr 2020</span>
+                            <p class="description">Internship as one of the most talented students in school. Responsible for maintaining Gazelle HO42 helicopter electrical systems and mechanics.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-bg"></div>
+            </section>
+
+            <section id="education" class="section-card">
+                <div class="section-content">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education-grid">
+                        <div class="education-item">
+                            <div class="edu-icon"><i class="fas fa-university"></i></div>
+                            <div class="country-flag">
+                                <img src="https://flagicons.lipis.dev/flags/4x3/me.svg" alt="Montenegro Flag" width="24" height="16">
+                            </div>
+                            
+                            <h3>Master's in AI</h3>
+                            <p>University of Donja Gorica</p>
+                            <p>Sep 2024 - Current</p>
+                        </div>
+                        <div class="education-item">
+                            <div class="edu-icon"><i class="fas fa-robot"></i></div>
+                            <div class="country-flag">
+                                <img src="https://flagicons.lipis.dev/flags/4x3/cn.svg" alt="China Flag" width="24" height="16">
+                            </div>
+                            <h3>Winter School: AI</h3>
+                            <p>Beijing Institute of Technology</p>
+                            <p>Jan 2025</p>
+                        </div>
+                        <div class="education-item">
+                            <div class="edu-icon"><i class="fas fa-university"></i></div>
+                            <div class="country-flag">
+                                <img src="https://flagicons.lipis.dev/flags/4x3/me.svg" alt="Montenegro Flag" width="24" height="16">
+                            </div>                            
+                            <h3>Bachelor's in ICT</h3>
+                            <p>University of Donja Gorica</p>
+                            <p>2021 - 2024</p>
+                        </div>
+                        <div class="education-item">
+                            <div class="edu-icon"><i class="fas fa-plane"></i></div>
+                            <div class="country-flag">
+                                <img src="https://flagicons.lipis.dev/flags/4x3/es.svg" alt="Spain Flag" width="24" height="16">
+                            </div>                            
+                            <h3>Study Abroad</h3>
+                            <p>Universidad de Jaén</p>
+                            <p>Jan - Jun 2023</p>
+                        </div>
+                        <div class="education-item">
+                            <div class="edu-icon"><i class="fas fa-plane"></i></div>
+                            <div class="country-flag">
+                                <img src="https://flagicons.lipis.dev/flags/4x3/hu.svg" alt="Hungary Flag" width="24" height="16">
+                            </div>                            
+                            <h3>Study Abroad</h3>
+                            <p>BME, Budapest</p>
+                            <p>Feb - Jun 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-bg"></div>
+            </section>
+
+            <section id="skills" class="section-card">
+                <div class="section-content">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="skills-container">
+                        <div class="skills-category">
+                            <h3>Programming</h3>
+                            <div class="skill-bars">
+                                <div class="skill-item" data-skill="Python">
+                                    <span class="skill-name">Python</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" data-level="80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="HTML">
+                                    <span class="skill-name">HTML</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" data-level="70%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="CSS">
+                                    <span class="skill-name">CSS</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" data-level="70%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="JavaScript">
+                                    <span class="skill-name">JavaScript</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" data-level="70%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item" data-skill="Java">
+                                    <span class="skill-name">Java</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" data-level="60%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-category">
+                            <h3>Languages</h3>
+                            <div class="language-circles">
+                                <div class="language-item" data-language="Montenegrin">
+                                    <div class="circle-progress" data-percentage="100">
+                                        <svg>
+                                            <circle class="bg" cx="60" cy="60" r="50"></circle>
+                                            <circle class="progress" cx="60" cy="60" r="50"></circle>
+                                        </svg>
+                                        <div class="percentage">
+                                            <span>Native</span>
+                                        </div>
+                                    </div>
+                                    <span class="language-name">Montenegrin</span>
+                                </div>
+                                <div class="language-item" data-language="English">
+                                    <div class="circle-progress" data-percentage="100">
+                                        <svg>
+                                            <circle class="bg" cx="60" cy="60" r="50"></circle>
+                                            <circle class="progress" cx="60" cy="60" r="50"></circle>
+                                        </svg>
+                                        <div class="percentage">
+                                            <span>C1</span>
+                                        </div>
+                                    </div>
+                                    <span class="language-name">English</span>
+                                </div>
+                                <div class="language-item" data-language="German">
+                                    <div class="circle-progress" data-percentage="15">
+                                        <svg>
+                                            <circle class="bg" cx="60" cy="60" r="50"></circle>
+                                            <circle class="progress" cx="60" cy="60" r="50"></circle>
+                                        </svg>
+                                        <div class="percentage">
+                                            <span>A2</span>
+                                        </div>
+                                    </div>
+                                    <span class="language-name">German</span>
+                                </div>
+                                <div class="language-item" data-language="Spanish">
+                                    <div class="circle-progress" data-percentage="15">
+                                        <svg>
+                                            <circle class="bg" cx="60" cy="60" r="50"></circle>
+                                            <circle class="progress" cx="60" cy="60" r="50"></circle>
+                                        </svg>
+                                        <div class="percentage">
+                                            <span>A2</span>
+                                        </div>
+                                    </div>
+                                    <span class="language-name">Spanish</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-category">
+                            <h3>Other Skills</h3>
+                            <div class="tag-cloud">
+                                <span class="tag">Microsoft Office</span>
+                                <span class="tag">Computer Troubleshooting</span>
+                                <span class="tag">Computer Hardware</span>
+                                <span class="tag">Computer Repair</span>
+                                <span class="tag">Team-work</span>
+                                <span class="tag">Communication</span>
+                                <span class="tag">Deep Learning</span>
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Artificial Intelligence</span>
+                                <span class="tag">Blockchain</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-bg"></div>
+            </section>
+
+            <section id="projects" class="section-card">
+                <div class="section-content">
+                    <h2 class="section-title">Projects & Achievements</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3>Business Challenge of Montenegro</h3>
+                            <p>Mentor and IT support (2022, 2023, 2024)</p>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>DigNEST Project</h3>
+                            <p>Oct 2022 - Jul 2024</p>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-landmark"></i>
+                            </div>
+                            <h3><a href="https://ieeexplore.ieee.org/abstract/document/10475738" target="_blank">AI and Computer Vision in Cultural Heritage Preservation</a></h3>
+                            <p>Publication (2024)</p>
+                        </div>
+                        
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <h3>Student Business Center</h3>
+                            <p>Coordinator of IT team (2021-2024)</p>
+                        </div>
+                    </div>
+                    
+                    <h3 class="subsection-title">Conferences & Seminars</h3>
+                    <div class="conferences-list">
+                        <div class="conference-item">
+                            <span class="conference-date">February 2024</span>
+                            <h4>IT Žabljak</h4>
+                            <p>Žabljak, Montenegro</p>
+                        </div>
+                        <div class="conference-item">
+                            <span class="conference-date">October 2022</span>
+                            <h4>Economy of Montenegro</h4>
+                            <p>Economy Chamber of Montenegro, Splendid, Budva</p>
+                        </div>
+                        <div class="conference-item">
+                            <span class="conference-date">October 2022</span>
+                            <h4>CBCG FINTECH Conference</h4>
+                            <p>Podgorica</p>
+                        </div>
+                        <div class="conference-item">
+                            <span class="conference-date">February 2022</span>
+                            <h4>Innovation with HPC artificial intelligence</h4>
+                            <p>University of Donja Gorica</p>
+                        </div>
+                        <div class="conference-item">
+                            <span class="conference-date">April 2021</span>
+                            <h4>Open Mind Academy</h4>
+                            <p>Podgorica</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-bg"></div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025 Igor Radulović</p>
+                <p>Last updated: March 2025</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
