@@ -132,7 +132,7 @@ particlesJS('particles-js', {
 
 // Typed.js
 const typed = new Typed('.typing', {
-    strings: ['AI/Blockchain Developer', 'Master Student', 'Computer Vision Enthusiast'],
+    strings: ['AI Developer', 'Master Student', 'Computer Vision Enthusiast'],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
