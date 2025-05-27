@@ -371,6 +371,7 @@ mobileMenuToggle.className = 'mobile-menu-toggle';
 mobileMenuToggle.innerHTML = '<i class="fas fa-bars"></i>';
 document.body.appendChild(mobileMenuToggle);
 
+/*
 let lastScrollTop = 0;
 window.addEventListener('scroll', () => {
   const navbar = document.querySelector('.main-nav');
@@ -388,6 +389,8 @@ window.addEventListener('scroll', () => {
   
   lastScrollTop = currentScrollTop;
 });
+
+*/
 
 // Toggle mobilni meni
 mobileMenuToggle.addEventListener('click', () => {
