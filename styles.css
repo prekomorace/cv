@@ -20,16 +20,20 @@
 }
 
 
-@media (max-width: 768px) {
+
+  @media (max-width: 768px) {
+  /* Sakrij ceo meni iznad ekrana */
   .main-nav {
-    position: fixed;
-    top: -100px; /* Sakrij navbar izvan ekrana */
-    transition: top 0.3s ease;
+    top: auto;                  /* uklanja fiksni top */
+    transform: translateY(-100%);
+    transition: transform 0.3s ease !important;
   }
-  
+  /* Kada je .show, vrati ga na poziciju */
   .main-nav.show {
-    top: 0; /* Prikaži navbar kada korisnik skroluje prema gore */
+    transform: translateY(0) !important;
   }
+}
+
   
   /* Dodaj hamburger meni za mobilne uređaje */
   .mobile-menu-toggle {
@@ -1029,13 +1033,4 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
-  .main-nav {
-    top: -100px !important;
-    transition: top 0.3s ease !important;
-  }
-  .main-nav.show {
-    top: 0 !important;
-  }
-}
 
