@@ -1028,3 +1028,14 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 768px) {
+  .main-nav {
+    top: -100px !important;
+    transition: top 0.3s ease !important;
+  }
+  .main-nav.show {
+    top: 0 !important;
+  }
+}
+
